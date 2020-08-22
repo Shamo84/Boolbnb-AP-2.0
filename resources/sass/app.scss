@@ -1,0 +1,36 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito'); // Variables
+@import 'variables'; // Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+@import '~daterangepicker/daterangepicker';
+@import "~font-awesome/css/font-awesome.css";
+@import "partials/_common.scss";
+@import "partials/_other-map.scss";
+@import "partials/_header.scss";
+@import "partials/_headerSearch.scss";
+@import "partials/_home.scss";
+@import "partials/_guest-ap-show.scss";
+@import "partials/_messages.scss";
+@import "partials/_createUpdateShow.scss";
+@import "partials/_dashboard.scss";
+@import "partials/_about.scss";
+@import "partials/_search.scss";
+@import "partials/_payment.scss";
+@import "partials/_footer.scss";
+@import "partials/_login.scss";
+
+// preload
+.preloader {
+    background-color: #ffffff;
+    background-image: url("images/preload.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+// --------
