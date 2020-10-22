@@ -24,7 +24,6 @@ class ApartmentController extends Controller
 
 		$advApt = $this->DivideApartments()[0];
 		$noAdvApt = $this->DivideApartments()[1];
-
 		$data = [
 			'advApt' => $advApt,
 			'noAdvApt' => $noAdvApt
